@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .scroll-container::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <title>careem</title>
+  <body style="font-family: inter">
+    <nav
+      class="bg-white ps-8 border-gray-300 fixed drop-shadow z-40 border-b top-0 mx-auto w-full py-3.5 px-6 dark:bg-gray-900"
+    >
+      <div class="flex justify-between mx-auto">
+        <div class="flex items-center gap-24">
+          <a href="index.html">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <ul class="hidden lg:flex items-center gap-6">
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href="service"> Service</a>
+            </li>
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href=" partners"> Partners</a>
+            </li>
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href=" careem_plus"> Careem Plus</a>
+            </li>
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href=" about_us"> About Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-center">
+          <button
+            type="button"
+            class="text-gray-900 md:hidden translate-y-1 hover:translate-y-0 bg-[#00EB79] hover:bg-[#00EB79] focus:outline-none duration-200 font-medium rounded-lg text-base px-4 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+          >
+            Download the app
+          </button>
+          <button
+            type="button"
+            class="text-gray-900 hidden md:block translate-y-1 hover:translate-y-0 bg-[#00EB79] hover:bg-[#00EB79] focus:outline-none duration-200 font-medium rounded-lg text-base px-4 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+          >
+            Sign In
+          </button>
+          <button
+            type="button"
+            id="dropdownDefaultButton"
+            data-dropdown-toggle="dropdown"
+            class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer dark:hover:text-white"
+          >
+            <svg
+              class="w-5 h-5 rounded-full me-3"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 3900 3900"
+            >
+              <path fill="#b22234" d="M0 0h7410v3900H0z" />
+              <path
+                d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0"
+                stroke="#fff"
+                stroke-width="300"
+              />
+              <path fill="#3c3b6e" d="M0 0h2964v2100H0z" />
+              <g fill="#fff">
+                <g id="d">
+                  <g id="c">
+                    <g id="e">
+                      <g id="b">
+                        <path
+                          id="a"
+                          d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"
+                        />
+                        <use xlink:href="#a" y="420" />
+                        <use xlink:href="#a" y="840" />
+                        <use xlink:href="#a" y="1260" />
+                      </g>
+                      <use xlink:href="#a" y="1680" />
+                    </g>
+                    <use xlink:href="#b" x="247" y="210" />
+                  </g>
+                  <use xlink:href="#c" x="494" />
+                </g>
+                <use xlink:href="#d" x="988" />
+                <use xlink:href="#c" x="1976" />
+                <use xlink:href="#e" x="2470" />
+              </g>
+            </svg>
+            English
+          </button>
+
+          <!-- Dropdown menu -->
+          <div
+            id="dropdown"
+            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-b-lg shadow border dark:bg-gray-700"
+          >
+            <ul
+              class="justify-center text-sm text-gray-700 dark:text-gray-200"
+              aria-labelledby="dropdownDefaultButton"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-[#00EB79] dark:hover:bg-slate-700 dark:hover:text-white"
+                  >Englis</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-[#00EB79] dark:hover:bg-slate-700 dark:hover:text-white"
+                  >Settings</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="px-5 lg:px-8">
+      <div class="min-h-60 mx-auto rounded-3xl pt-24 xl:px-0 flex items-center">
+        <img
+          src="images/corperate packages/home.png"
+          class="rounded-xl md:rounded-3xl w-full h-80 md:h-[70vh] xl:h-[86vh]"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section
+      class="md:h-36 grid place-items-center my-16 w-10/12 mx-auto rounded-3xl px-4 xl:px-0"
+    >
+      <div>
+        <h2
+          class="md:text-[54px] text-[32px] mb-7 md:text-5xl text-center text-[#2D2E2E] font-bold leading-snug"
+        >
+          Most members save AED 200+ monthly with Careem Plus
+        </h2>
+        <p
+          class="font-[inter] text-center font-medium text-base text-[#2D2E2E]"
+        >
+          At only AED 19/month, enjoy unlimited savings on rides, food and
+          groceries, dining out, plus more
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="py-10 bg-gradient-to-tr my from-[#005242] via-[#03E786]- to-[#00E784]"
+    >
+      <section class="max-w-[500px] h-full md:max-w-6xl md:px-12 mt-20 mx-auto">
+        <div class="grid place-content-center h-full w-full">
+          <div
+            class="grid grid-cols-1 gap-4 justify-between items-center md:grid-cols-12 md:gap-8 px-4"
+          >
+            <div class="md:col-span-6 lg:col-span-6 w-full flex justify-end">
+              <img
+                src="images/corperate packages/cars.png"
+                class="min-w-40 md:w-auto"
+                alt=""
+              />
+            </div>
+            <div class="md:col-span-6 lg:col-span-6 w mx-auto px-5">
+              <div class="h-full sm:px-0 flex items-center">
+                <div>
+                  <h2
+                    class="text-[28px] md:text-[32px] lg:text-4xl text-white font-bold"
+                  >
+                    Instant 10% back on 10 rides
+                  </h2>
+                  <p class="text-base my-4 font-medium text-white">
+                    On Hala Taxi & rides, credited to your Careem Pay wallet
+                  </p>
+                  <button
+                    type="button"
+                    class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#ffffff] hover:bg-[#ffffff] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+                  >
+                    Subscribe now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="py-10">
+      <section class="max-w-[500px] h-full md:max-w-6xl md:px-12 mt-20 mx-auto">
+        <div class="grid place-content-center h-full w-full">
+          <div
+            class="grid grid-cols-1 gap-4 justify-between items-center md:grid-cols-2 md:gap-8 px-4"
+          >
+            <div class="order-2 md:order-1 w mx-auto px-5">
+              <div class="h-full sm:px-0 flex items-center">
+                <div>
+                  <h2
+                    class="text-[28px] md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+                  >
+                    Unlimited free delivery on food
+                  </h2>
+                  <p class="text-base my-4 font-medium text-[#2D2E2E]">
+                    From McDonald’s, Starbucks & 8,000+ restaurants
+                  </p>
+                  <button
+                    type="button"
+                    class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#00EB79] hover:bg-[#00EB79] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+                  >
+                    Subscribe now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="order-1 md:order-2 w-full flex justify-end">
+              <img
+                src="images/corperate packages/bugger.png"
+                class="min-w-40 md:w-auto"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section
+      class="py-10 bg-gradient-to-tr my from-[#005242] via-[#03E786]- to-[#00E784]"
+    >
+      <section class="max-w-[500px] h-full md:max-w-6xl md:px-12 mt-20 mx-auto">
+        <div class="grid place-content-center h-full w-full">
+          <div
+            class="grid grid-cols-1 gap-4 justify-between items-center md:grid-cols-12 md:gap-8 px-4"
+          >
+            <div class="md:col-span-6 lg:col-span-6 w-full flex justify-end">
+              <img
+                src="images/corperate packages/Groceries.png"
+                class="min-w-40 md:w-auto"
+                alt=""
+              />
+            </div>
+            <div class="md:col-span-6 lg:col-span-6 w mx-auto px-5">
+              <div class="h-full sm:px-0 flex items-center">
+                <div>
+                  <h2
+                    class="text-[28px] md:text-[32px] lg:text-4xl text-white font-bold"
+                  >
+                    Unlimited free delivery on Quik Groceries
+                  </h2>
+                  <p class="text-base my-4 font-medium text-white">
+                    On unlimited orders
+                  </p>
+                  <button
+                    type="button"
+                    class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#ffffff] hover:bg-[#ffffff] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+                  >
+                    Subscribe now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="py-10">
+      <section class="max-w-[500px] h-full md:max-w-6xl md:px-12 mt-20 mx-auto">
+        <div class="grid place-content-center h-full w-full">
+          <div
+            class="grid grid-cols-1 gap-4 justify-between items-center md:grid-cols-2 md:gap-8 px-4"
+          >
+            <div class="order-2 md:order-1 w mx-auto px-5">
+              <div class="h-full sm:px-0 flex items-center">
+                <div>
+                  <h2
+                    class="text-[28px] md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+                  >
+                    Up to 50% off on DineOut
+                  </h2>
+                  <p class="text-base my-4 font-medium text-[#2D2E2E]">
+                    On 500+ restaurants
+                  </p>
+                  <button
+                    type="button"
+                    class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#00EB79] hover:bg-[#00EB79] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+                  >
+                    Subscribe now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="order-1 md:order-2 w-full flex justify-end">
+              <img
+                src="images/corperate packages/house.png"
+                class="min-w-40 md:w-auto"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section
+      class="flex flex-wrap mb-16 max-w-[500px] h-full md:max-w-6xl mx-auto justify-center gap-12"
+    >
+      <div
+        class="h-96 px-2 w-[345px] flex justify-center rounded-3xl bg-[#F4F8FB]"
+      >
+        <div class="grid place-content-center text-center">
+          <img
+            src="images/corperate packages/bike.png"
+            class="flex justify-self-center"
+            alt=""
+          />
+          <h2
+            class="text-[28px] my-4 md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+          >
+            Unlimited free bike rides
+          </h2>
+          <p class="text-base my-4 font-medium text-[#2D2E2E]">
+            As many 45-min rides as you like
+          </p>
+        </div>
+      </div>
+      <div
+        class="h-96 px-2 w-[345px] flex justify-center rounded-3xl bg-[#F4F8FB]"
+      >
+        <div class="grid place-content-center text-center">
+          <img
+            src="images/corperate packages/laundary.png"
+            class="flex justify-self-center"
+            alt=""
+          />
+          <h2
+            class="text-[28px] my-4 md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+          >
+            On unlimited orders
+          </h2>
+          <p class="text-base my-4 font-medium text-[#2D2E2E]">
+            As many 45-min rides as you like
+          </p>
+        </div>
+      </div>
+      <div
+        class="h-96 px-2 w-[345px] flex justify-center rounded-3xl bg-[#F4F8FB]"
+      >
+        <div class="grid place-content-center text-center">
+          <img
+            src="images/corperate packages/home_.png"
+            class="flex justify-self-center"
+            alt=""
+          />
+          <h2
+            class="text-[28px] my-4 md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+          >
+            20% off on home cleaning
+          </h2>
+          <p class="text-base my-4 font-medium text-[#2D2E2E]">
+            On unlimited bookings
+          </p>
+        </div>
+      </div>
+      <div
+        class="h-96 px-2 w-[345px] flex justify-center rounded-3xl bg-[#F4F8FB]"
+      >
+        <div class="grid place-content-center text-center">
+          <img
+            src="images/corperate packages/Support.png"
+            class="flex justify-self-center"
+            alt=""
+          />
+          <h2
+            class="text-[28px] my-4 md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+          >
+            Priority Support
+          </h2>
+          <p class="text-base my-4 font-medium text-[#2D2E2E]">
+            Directly from our top agents
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="py-10 bg-gradient-to-tr my from-[#005242] via-[#03E786]- to-[#00E784]"
+    >
+      <section class="max-w-[500px] h-full md:max-w-6xl md:px-12 mt-20 mx-auto">
+        <div class="flex items-center justify-center h-32">
+          <h2
+            class="text-[28px] md:text-[32px] lg:text-4xl text-white font-bold"
+          >
+            How to subscribe to Careem Plus
+          </h2>
+        </div>
+        <div class="grid place-content-center h-full w-full">
+          <div
+            class="grid grid-cols-1 gap-4 justify-between items-center md:grid-cols-12 md:gap-8 px-4"
+          >
+            <div class="md:col-span-6 lg:col-span-6 w-full flex justify-end">
+              <img
+                src="images/corperate packages/Groceries.png"
+                class="min-w-40 md:w-auto"
+                alt=""
+              />
+            </div>
+            <div class="md:col-span-6 lg:col-span-6 w mx-auto px-5">
+              <div class="h-full sm:px-0 flex items-center">
+                <div>
+                  <h2
+                    class="text-[28px] md:text-[32px] lg:text-4xl text-white font-bold"
+                  >
+                    How to subscribe to Careem Plus
+                  </h2>
+                  <p class="text-base my-4 font-medium text-white">
+                    On unlimited orders
+                  </p>
+                  <button
+                    type="button"
+                    class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#ffffff] hover:bg-[#ffffff] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+                  >
+                    Subscribe now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <div
+      class="bg-gradient-to-tr grid place-content-center py-28 from-[#005242] via-[#03E786]- to-[#00E784]"
+    >
+      <div class="text-center mb-12">
+        <h2 class="text-[28px] md:text-[32px] lg:text-4xl text-white font-bold">
+          How to subscribe to Careem Plus
+        </h2>
+      </div>
+
+      <div class="xl:flex h-full items-center max-w-6xl gap-12">
+        <div class="xl:flex grid justify-center xl:gap-16 items-center">
+          <div class="xl:hidden border-gray-200 mx-auto dark:border-gray-700">
+            <ul
+              class="flex xl:block flex-wrap -mb-px text-sm font-medium text-center"
+              id="default-tab"
+              data-tabs-toggle="#default-tab-content"
+              role="tablist"
+            >
+              <li
+                class="xl:me-2 flex items-center xl:grid place-content-center"
+                role="presentation"
+              >
+                <button
+                  class="w-14 h-14 font-3xl font-extrabold active:text-green-800 focus:text-green-800 focus:border-green-800 focus:border-2 active:border-green-800 rounded-full bg-white"
+                  id="profile-tab"
+                  data-tabs-target="#profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  1
+                </button>
+                <hr
+                  class="border-2 border-gray-400 w-32 sm:w-36 md:w-40 xl:w-0 h-0 xl:h-20 flex justify-self-center"
+                />
+              </li>
+              <li
+                class="xl:me-2 flex items-center xl:grid place-content-center"
+              >
+                <button
+                  class="w-14 h-14 font-3xl font-extrabold active:text-green-800 focus:text-green-800 focus:border-green-800 focus:border-2 active:border-green-800 rounded-full bg-white"
+                  id="dashboard-tab"
+                  data-tabs-target="#dashboard"
+                  type="button"
+                  role="tab"
+                  aria-controls="dashboard"
+                  aria-selected="false"
+                >
+                  2
+                </button>
+                <hr
+                  class="border-2 border-gray-400 w-32 sm:w-36 md:w-40 xl:w-0 h-0 xl:h-20 flex justify-self-center"
+                />
+              </li>
+              <li class="xl:me-2" role="presentation">
+                <button
+                  class="w-14 h-14 font-3xl font-extrabold active:text-green-800 focus:text-green-800 focus:border-green-800 focus:border-2 active:border-green-800 rounded-full bg-white"
+                  id="settings-tab"
+                  data-tabs-target="#settings"
+                  type="button"
+                  role="tab"
+                  aria-controls="settings"
+                  aria-selected="false"
+                >
+                  3
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div id="default-tab-content order-2 xl:order-1 max-w-xl h-96">
+            <div
+              class="hidden p-4 rounded-lg dark:bg-gray-800"
+              id="profile"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+            >
+              <div class="xl:hidden my-6 mx-auto text-center max-w-[552px]">
+                <h2 class="text-xl md:text-2xl text-white font-bold">
+                  Tap on Careem Plus
+                </h2>
+                <p class="text-base my-1 mb-4 font-medium text-white">
+                  Check out the exclusive benefits of your Careem Plus
+                  subscription
+                </p>
+              </div>
+              <img
+                src="images/corperate packages/tab1.png"
+                width="552px"
+                class="aspect-auto"
+                alt=""
+              />
+            </div>
+            <div
+              class="hidden p-4 rounded-lg dark:bg-gray-800"
+              id="dashboard"
+              role="tabpanel"
+              aria-labelledby="dashboard-tab"
+            >
+              <div class="xl:hidden my-6 mx-auto text-center max-w-[552px]">
+                <h2 class="text-xl md:text-2xl text-white font-bold">
+                  Confirm your payment
+                </h2>
+                <p class="text-base my-2 mb-4 font-medium text-white">
+                  Tap on ‘Subscribe now’ to make the payment and start your
+                  subscription
+                </p>
+              </div>
+              <img
+                src="images/corperate packages/tab-2.png"
+                width="552px"
+                class="aspect-auto"
+                alt=""
+              />
+            </div>
+            <div
+              class="hidden p-4 rounded-lg dark:bg-gray-800"
+              id="settings"
+              role="tabpanel"
+              aria-labelledby="settings-tab"
+            >
+              <div class="xl:hidden my-6 mx-auto text-center max-w-[552px]">
+                <h2 class="text-xl md:text-2xl text-white font-bold">
+                  You’re now subscribed
+                </h2>
+                <p class="text-base mt-2 font-medium text-white">
+                  Start saving with Careem Plus. You can easily track your
+                  savings on your Careem Plus profile.
+                </p>
+              </div>
+              <img
+                src="images/corperate packages/tab-3.png"
+                width="552px"
+                class="aspect-auto"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="hidden xl:flex border-gray-200 dark:border-gray-700">
+            <ul
+              class="flex xl:block text-sm font-medium text-center"
+              id="default-tab"
+              data-tabs-toggle="#default-tab-content"
+              role="tablist"
+            >
+              <li
+                class="xl:me-2 flex items-center xl:grid place-content-center"
+                role="presentation"
+              >
+                <button
+                  class="w-14 h-14 font-3xl font-extrabold active:text-green-800 focus:text-green-800 focus:border-green-800 focus:border-2 active:border-green-6800 rounded-full bg-white"
+                  id="profile-tab"
+                  data-tabs-target="#profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  1
+                </button>
+                <hr
+                  class="border-2 border-gray-400 w-40 xl:w-0 h-0 xl:h-20 flex justify-self-center"
+                />
+              </li>
+              <li
+                class="xl:me-2 flex items-center xl:grid place-content-center"
+              >
+                <button
+                  class="w-14 h-14 font-3xl font-extrabold active:text-green-800 active:border-green-800 rounded-full bg-white focus:text-green-800"
+                  id="dashboard-tab"
+                  data-tabs-target="#dashboard"
+                  type="button"
+                  role="tab"
+                  aria-controls="dashboard"
+                  aria-selected="false"
+                >
+                  2
+                </button>
+                <hr
+                  class="border-2 border-gray-400 w-40 xl:w-0 h-0 xl:h-20 flex justify-self-center"
+                />
+              </li>
+              <li class="xl:me-2" role="presentation">
+                <button
+                  class="w-14 h-14 font-3xl font-extrabold active:text-green-800 focus:text-green-800 focus:border-green-800 focus:border-2 active:border-green-800 rounded-full bg-white"
+                  id="settings-tab"
+                  data-tabs-target="#settings"
+                  type="button"
+                  role="tab"
+                  aria-controls="settings"
+                  aria-selected="false"
+                >
+                  3
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="gap-7 pt-10 hidden xl:grid items-center">
+          <div class="h-[100px] max-w-96">
+            <h2 class="text-xl md:text-2xl text-white font-bold">
+              Tap on Careem Plus
+            </h2>
+            <p class="text-base my-1 mb-4 font-medium text-white">
+              Check out the exclusive benefits of your Careem Plus subscription
+            </p>
+          </div>
+          <div class="h-[100px] max-w-96">
+            <h2 class="text-xl md:text-2xl text-white font-bold">
+              Confirm your payment
+            </h2>
+            <p class="text-base my-2 mb-4 font-medium text-white">
+              Tap on ‘Subscribe now’ to make the payment and start your
+              subscription
+            </p>
+          </div>
+          <div class="h-[100px] max-w-96">
+            <h2 class="text-xl md:text-2xl text-white font-bold">
+              You’re now subscribed
+            </h2>
+            <p class="text-base mt-2 font-medium text-white">
+              Start saving with Careem Plus. You can easily track your savings
+              on your Careem Plus profile.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section
+      class="mx-auto p-4 md:p-6 overflow-x-auto scroll-container hide-scrollbar"
+      style="font-family: sans-serif"
+    >
+      <div class="text-center lg:w-full mx-auto">
+        <h2
+          class="text-[28px] my-10 md:text-[32px] lg:text-5xl text-[#2D2E2E] font-bold"
+        >
+          Explore more with Careem
+        </h2>
+        <div class="flex gap-4 mx-auto">
+          <div
+            class="rounded-2xl min-w-[255px] md:min-w-[314px] bg-[#3837E4] text-white px-5 h-[375px] md:h-[450px] relative"
+          >
+            <a href="#" class="px-4"> </a>
+            <div>
+              <a href="#" class="px-4">
+                <div>
+                  <h3
+                    class="text-[32px] md:text-[54px] -mt-10 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    Go
+                  </h3>
+                  <h3
+                    class="text-[22px] md:text-4xl -my-4 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    anywhere
+                  </h3>
+                </div>
+              </a>
+              <ul class="-mt-10 space-y-1">
+                <a href="#" class="px-4"> </a>
+                <li>
+                  <a href="#" class="px-4"> </a
+                  ><a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Rides</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Taxes</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Bike</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >CaerRental</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >SchoolRides</span
+                      >
+                    </h4></a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="w-full absolute bottom-3 end-3 flex justify-end items-end"
+            >
+              <img src="images/arrow.png" class="w-8 md:w-auto" alt="" />
+            </div>
+          </div>
+          <div
+            class="rounded-2xl min-w-[255px] md:min-w-[314px] bg-[#D2FFD5] text-[#00493E] px-5 h-[375px] md:h-[450px] relative"
+          >
+            <a href="#" class="px-4"> </a>
+            <div>
+              <a href="#" class="px-4">
+                <div>
+                  <h3
+                    class="text-[32px] md:text-[54px] -mt-10 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    Eat
+                  </h3>
+                  <h3
+                    class="text-[22px] md:text-4xl -my-4 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    anytime
+                  </h3>
+                </div>
+              </a>
+              <ul class="-mt-10 space-y-1">
+                <a href="#" class="px-4"> </a>
+                <li>
+                  <a href="#" class="px-4"> </a
+                  ><a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Food</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >DineOut</span
+                      >
+                    </h4></a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="w-full absolute bottom-3 end-3 flex justify-end items-end"
+            >
+              <img src="images/arrow_green.png" class="w-8 md:w-auto" alt="" />
+            </div>
+          </div>
+          <div
+            class="rounded-2xl min-w-[255px] md:min-w-[314px] bg-[#7F5FFA] text-[#D6FFEA] px-5 h-[375px] md:h-[450px] relative"
+          >
+            <a href="#" class="px-4"> </a>
+            <div>
+              <a href="#" class="px-4">
+                <div>
+                  <h3
+                    class="text-[32px] md:text-[54px] -mt-10 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    Get
+                  </h3>
+                  <h3
+                    class="text-[22px] md:text-4xl -my-4 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    anything
+                  </h3>
+                </div>
+              </a>
+              <ul class="-mt-10 space-y-1">
+                <a href="#" class="px-4"> </a>
+                <li>
+                  <a href="#" class="px-4"> </a
+                  ><a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Quick Groceries</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Supermarkets</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Delivery</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >HomeCleaning</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Saloon&amp;Spa</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Tickets</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Laundry</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Flowers</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Pharmacy</span
+                      >
+                    </h4></a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="w-full absolute bottom-3 end-3 flex justify-end items-end"
+            >
+              <img src="images/arrow_green.png" class="w-8 md:w-auto" alt="" />
+            </div>
+          </div>
+          <div
+            class="rounded-2xl min-w-[255px] md:min-w-[314px] bg-[#001942] text-[#ffffff] px-5 h-[375px] md:h-[450px] relative"
+          >
+            <a href="#" class="px-4"> </a>
+            <div>
+              <a href="#" class="px-4">
+                <div>
+                  <h3
+                    class="text-[32px] md:text-[54px] -mt-10 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    Pay
+                  </h3>
+                  <h3
+                    class="text-[22px] md:text-4xl -my-4 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    anyone
+                  </h3>
+                </div>
+              </a>
+              <ul class="-mt-10 space-y-1">
+                <a href="#" class="px-4"> </a>
+                <li>
+                  <a href="#" class="px-4"> </a
+                  ><a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Pay</span
+                      >
+                    </h4></a
+                  >
+                </li>
+                <li>
+                  <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                    ><img
+                      data-v-038976f2=""
+                      src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                      alt="Careem Wink Logo"
+                      class="w-5 h-5 md:w-6 md:h-6 me-2"
+                    />
+                    <h4 data-v-038976f2="">
+                      <span class="text-base md:text-lg font-semibold"
+                        >Donation</span
+                      >
+                    </h4></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="w-full absolute bottom-3 end-3 flex justify-end items-end"
+            >
+              <img src="images/arrow_green.png" class="w-8 md:w-auto" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="xl:p-6">
+      <div
+        class="py-10 h-[62vh] md:h-[82vh] mx-auto grid items-center bg-gradient-to-tr xl:rounded-2xl my from-[#00493E] via-[#03E786]- to-[#00E482]"
+      >
+        <div class="text-center mb-5 md:-mb-32">
+          <h2
+            class="text-[22px] md:text-[32px] lg:text-4xl text-white font-bold"
+          >
+            Top Questions
+          </h2>
+        </div>
+        <div
+          class="max-w-4xl space-y-5- mx-auto"
+          id="accordion-color-"
+          data-active-classes="text-white"
+          data-inactive-classes="text-gray-50"
+          data-accordion="collapse"
+        >
+          <h2 id="accordion-color-heading-2">
+            <button
+              type="button"
+              class="flex text-start items-center justify-between w-full p-5 rtl:text-right text-white text-[18px] font-semibold gap-3"
+              data-accordion-target="#accordion-color-body-2"
+              aria-expanded="false"
+              aria-controls="accordion-color-body-2"
+            >
+              <span>What is Careem Plus?</span>
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"
+                />
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="accordion-color-body-2"
+            class="hidden text-start"
+            aria-labelledby="accordion-color-heading-2"
+          >
+            <div class="p-5">
+              <p class="mb-2 text-sm text-white dark:text-gray-400">
+                Careem Plus is a monthly subscription program that provides
+                additional value across rides, food, groceries and bikes along
+                with quick support.
+              </p>
+            </div>
+          </div>
+          <h2 id="accordion-color-heading-3">
+            <button
+              type="button"
+              class="flex text-start justify-between w-full p-5 rtl:text-right text-white text-[18px] font-semibold gap-3"
+              data-accordion-target="#accordion-color-body-3"
+              aria-expanded="false"
+              aria-controls="accordion-color-body-3"
+            >
+              <span
+                >Can I use my Careem Plus benefits with other promos and
+                discounts?</span
+              >
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"
+                />
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="accordion-color-body-3"
+            class="hidden text-start"
+            aria-labelledby="accordion-color-heading-2"
+          >
+            <div class="p-5">
+              <p class="mb-2 text-white text-sm dark:text-gray-400">
+                Yes, you can use Careem Plus benefits with other discounts and
+                promo codes within food and groceries
+              </p>
+            </div>
+          </div>
+          <h2 id="accordion-color-heading-4">
+            <button
+              type="button"
+              class="flex text-start items-center justify-between w-full p-5 rtl:text-right text-white text-[18px] font-semibold gap-3"
+              data-accordion-target="#accordion-color-body-4"
+              aria-expanded="false"
+              aria-controls="accordion-color-body-4"
+            >
+              <span
+                >What happens when I cancel my Careem Plus subscription?</span
+              >
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"
+                />
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="accordion-color-body-4"
+            class="hidden"
+            aria-labelledby="accordion-color-heading-2"
+          >
+            <div class="p-5">
+              <p class="mb-2 text-sm text-white dark:text-gray-400">
+                When you cancel your subscription you will still have access to
+                all your benefits and your subscription will not be auto renewed
+                at the end of your subscription.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>

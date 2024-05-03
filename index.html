@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .scroll-container::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <title>careem</title>
+  <body style="font-family: inter" class="overflow-x-hidden-">
+    <nav
+      class="bg-white border-gray-300 fixed drop-shadow z-40 border-b top-0 mx-auto w-full py-3.5 px-6 dark:bg-gray-900"
+    >
+      <div class="flex justify-between mx-auto">
+        <div class="flex items-center gap-24">
+          <a href="index.html">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <ul class="hidden lg:flex items-center gap-6">
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href="service"> Service</a>
+            </li>
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href=" partners"> Partners</a>
+            </li>
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href=" careem_plus"> Careem Plus</a>
+            </li>
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href=" about_us"> About Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-center">
+          <button
+            type="button"
+            class="text-gray-900 md:hidden translate-y-1 hover:translate-y-0 bg-[#00EB79] hover:bg-[#00EB79] focus:outline-none duration-200 font-medium rounded-lg text-base px-4 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+          >
+            Download the app
+          </button>
+          <button
+            type="button"
+            class="text-gray-900 hidden md:block translate-y-1 hover:translate-y-0 bg-[#00EB79] hover:bg-[#00EB79] focus:outline-none duration-200 font-medium rounded-lg text-base px-4 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+          >
+            Sign In
+          </button>
+          <button
+            type="button"
+            id="dropdownDefaultButton"
+            data-dropdown-toggle="dropdown"
+            class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer dark:hover:text-white"
+          >
+            <svg
+              class="w-5 h-5 rounded-full me-3"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 3900 3900"
+            >
+              <path fill="#b22234" d="M0 0h7410v3900H0z" />
+              <path
+                d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0"
+                stroke="#fff"
+                stroke-width="300"
+              />
+              <path fill="#3c3b6e" d="M0 0h2964v2100H0z" />
+              <g fill="#fff">
+                <g id="d">
+                  <g id="c">
+                    <g id="e">
+                      <g id="b">
+                        <path
+                          id="a"
+                          d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"
+                        />
+                        <use xlink:href="#a" y="420" />
+                        <use xlink:href="#a" y="840" />
+                        <use xlink:href="#a" y="1260" />
+                      </g>
+                      <use xlink:href="#a" y="1680" />
+                    </g>
+                    <use xlink:href="#b" x="247" y="210" />
+                  </g>
+                  <use xlink:href="#c" x="494" />
+                </g>
+                <use xlink:href="#d" x="988" />
+                <use xlink:href="#c" x="1976" />
+                <use xlink:href="#e" x="2470" />
+              </g>
+            </svg>
+            English
+          </button>
+
+          <!-- Dropdown menu -->
+          <div
+            id="dropdown"
+            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-b-lg shadow border dark:bg-gray-700"
+          >
+            <ul
+              class="justify-center text-sm text-gray-700 dark:text-gray-200"
+              aria-labelledby="dropdownDefaultButton"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-[#00EB79] dark:hover:bg-slate-700 dark:hover:text-white"
+                  >Englis</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-[#00EB79] dark:hover:bg-slate-700 dark:hover:text-white"
+                  >Settings</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------------------------------------------------------- 
+                              video
+--------------------------------------------------------------------->
+
+    <section class="p-4 max-w-7xl mx-auto xl:px-0 mt-32">
+      <video
+        class="h-auto border mx-auto border-gray-200 rounded-2xl dark:border-gray-700"
+        controls-
+        autoplay
+        muted
+      >
+        <source
+          src="images/2023_05_05_Careem_New_Brand_Video_Cutdown_04_1920_X1080_Online_Mix_851c26c68a.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section
+      class="mx-auto p-4 md:p-6 overflow-x-auto scroll-container hide-scrollbar"
+      style="font-family: sans-serif"
+    >
+      <div class="w-[950px]- lg:w-full mx-auto">
+        <div class="flex gap-4 mx-auto">
+          <div
+            class="rounded-2xl min-w-[255px] md:min-w-[314px] bg-[#3837E4] text-white px-5 h-[375px] md:h-[450px] relative"
+          >
+            <a href="#" class="px-4">
+              <div>
+                <div>
+                  <h3
+                    class="text-[32px] md:text-[54px] -mt-10 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    Go
+                  </h3>
+                  <h3
+                    class="text-[22px] md:text-4xl -my-4 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    anywhere
+                  </h3>
+                </div>
+                <ul class="-mt-10 space-y-1">
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Rides</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Taxes</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Bike</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >CaerRental</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >SchoolRides</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="w-full absolute bottom-3 end-3 flex justify-end items-end"
+              >
+                <img src="images/arrow.png" class="w-8 md:w-auto" alt="" />
+              </div>
+            </a>
+          </div>
+          <div
+            class="rounded-2xl min-w-[255px] md:min-w-[314px] bg-[#D2FFD5] text-[#00493E] px-5 h-[375px] md:h-[450px] relative"
+          >
+            <a href="#" class="px-4">
+              <div>
+                <div>
+                  <h3
+                    class="text-[32px] md:text-[54px] -mt-10 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    Eat
+                  </h3>
+                  <h3
+                    class="text-[22px] md:text-4xl -my-4 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    anytime
+                  </h3>
+                </div>
+                <ul class="-mt-10 space-y-1">
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Food</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >DineOut</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="w-full absolute bottom-3 end-3 flex justify-end items-end"
+              >
+                <img
+                  src="images/arrow_green.png"
+                  class="w-8 md:w-auto"
+                  alt=""
+                />
+              </div>
+            </a>
+          </div>
+          <div
+            class="rounded-2xl min-w-[255px] md:min-w-[314px] bg-[#7F5FFA] text-[#D6FFEA] px-5 h-[375px] md:h-[450px] relative"
+          >
+            <a href="#" class="px-4">
+              <div>
+                <div>
+                  <h3
+                    class="text-[32px] md:text-[54px] -mt-10 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    Get
+                  </h3>
+                  <h3
+                    class="text-[22px] md:text-4xl -my-4 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    anything
+                  </h3>
+                </div>
+                <ul class="-mt-10 space-y-1">
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Quick Groceries</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Supermarkets</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Delivery</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >HomeCleaning</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Saloon&Spa</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Tickets</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Laundry</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Flowers</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Pharmacy</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="w-full absolute bottom-3 end-3 flex justify-end items-end"
+              >
+                <img
+                  src="images/arrow_green.png"
+                  class="w-8 md:w-auto"
+                  alt=""
+                />
+              </div>
+            </a>
+          </div>
+          <div
+            class="rounded-2xl min-w-[255px] md:min-w-[314px] bg-[#001942] text-[#ffffff] px-5 h-[375px] md:h-[450px] relative"
+          >
+            <a href="#" class="px-4">
+              <div>
+                <div>
+                  <h3
+                    class="text-[32px] md:text-[54px] -mt-10 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    Pay
+                  </h3>
+                  <h3
+                    class="text-[22px] md:text-4xl -my-4 font-bold hover:underline hover:underline-offset-8"
+                  >
+                    anyone
+                  </h3>
+                </div>
+                <ul class="-mt-10 space-y-1">
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Pay</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                  <li>
+                    <a data-v-038976f2="" href="/en-AE/ride" class="flex"
+                      ><img
+                        data-v-038976f2=""
+                        src="https://upload-cdn.careem.com/product_bcef266a29.png"
+                        alt="Careem Wink Logo"
+                        class="w-5 h-5 md:w-6 md:h-6 me-2"
+                      />
+                      <h4 data-v-038976f2="">
+                        <span class="text-base md:text-lg font-semibold"
+                          >Donation</span
+                        >
+                      </h4></a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="w-full absolute bottom-3 end-3 flex justify-end items-end"
+              >
+                <img
+                  src="images/arrow_green.png"
+                  class="w-8 md:w-auto"
+                  alt=""
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto p-4 md:p-6" style="font-family: sans-serif">
+      <div class="lg:w-full mx-auto">
+        <div
+          id="controls-carousel"
+          class="relative w-full"
+          data-carousel="slide"
+        >
+          <!-- Carousel wrapper -->
+          <div class="relative h-40 overflow-hidden rounded-lg md:h-80">
+            <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <div
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              >
+                <div
+                  class="h-[145px] md:h-[160px] lg:h-[280px] max-h-40- py-3 pb-8 lg:py-10 px-4 lg:px-16 grid relative items-center rounded-lg lg:rounded-3xl w-full bg-gradient-to-r from-[#00493E] via-[#00493E] to-[#00945F] to-60%-"
+                >
+                  <div class="h-full grid items-center w-7/12">
+                    <img
+                      src="images/careem+.png"
+                      class="h-[30px] lg:h-[60px]"
+                      alt=""
+                    />
+                    <h1
+                      class="text-sm md:text-lg lg:text-4xl text-white flex items-"
+                    >
+                      Enjoy unlimited free delivery on food
+                    </h1>
+                  </div>
+
+                  <img
+                    src="images/bugger.png"
+                    h
+                    class="absolute h-44 lg:h-auto right-8 -bottom-6 lg:-bottom-12"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div
+              class="hidden duration-700 ease-in-out"
+              data-carousel-item="active"
+            >
+              <div
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              >
+                <div
+                  class="h-[145px] md:h-[160px] lg:h-[290px] max-h-40- py-3 pb-8 lg:py-10 px-4 lg:px-16 grid relative items-center rounded-lg lg:rounded-3xl w-full bg-gradient-to-r from-[#00493E] via-[#00493E] to-[#00945F] to-60%-"
+                >
+                  <div class="h-full grid items-center w-7/12">
+                    <img
+                      src="images/careem+.png"
+                      class="h-[30px] lg:h-[60px]"
+                      alt=""
+                    />
+                    <h1
+                      class="text-sm md:text-lg lg:text-4xl text-white flex items-"
+                    >
+                      Get priority support from our top agents
+                    </h1>
+                  </div>
+
+                  <img
+                    src="images/phones.png"
+                    h
+                    class="absolute h-44 lg:h-auto right-8 -bottom-6 lg:-bottom-12"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <div
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              >
+                <div
+                  class="h-[145px] md:h-[160px] lg:h-[290px] max-h-40- py-3 pb-8 lg:py-10 px-4 lg:px-16 grid relative items-center rounded-lg lg:rounded-3xl w-full bg-gradient-to-r from-[#00493E] via-[#00493E] to-[#00945F] to-60%-"
+                >
+                  <div class="h-full grid items-center w-7/12">
+                    <img
+                      src="images/careem+.png"
+                      class="h-[30px] lg:h-[60px]"
+                      alt=""
+                    />
+                    <h1
+                      class="text-sm md:text-lg lg:text-4xl text-white flex items-"
+                    >
+                      Most members save AED 200+ every month
+                    </h1>
+                  </div>
+
+                  <img
+                    src="images/hand_phone.png"
+                    h
+                    class="absolute h-44 lg:h-auto right-8 -bottom-6 lg:-bottom-12"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <div
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              >
+                <div
+                  class="h-[145px] md:h-[160px] lg:h-[290px] max-h-40- py-3 pb-8 lg:py-10 px-4 lg:px-16 grid relative items-center rounded-lg lg:rounded-3xl w-full bg-gradient-to-r from-[#00493E] via-[#00493E] to-[#00945F] to-60%-"
+                >
+                  <div class="h-full grid items-center w-7/12">
+                    <img
+                      src="images/careem+.png"
+                      class="h-[30px] lg:h-[60px]"
+                      alt=""
+                    />
+                    <h1
+                      class="text-sm md:text-lg lg:text-4xl text-white flex items-"
+                    >
+                      Most members save AED 200+ every month
+                    </h1>
+                  </div>
+
+                  <img
+                    src="images/hand_phone.png"
+                    h
+                    class="absolute h-44 lg:h-auto right-8 -bottom-6 lg:-bottom-12"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <div
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              >
+                <div
+                  class="h-[145px] md:h-[160px] lg:h-[290px] max-h-40- py-3 pb-8 lg:py-10 px-4 lg:px-16 grid relative items-center rounded-lg lg:rounded-3xl w-full bg-gradient-to-r from-[#00493E] via-[#00493E] to-[#00945F] to-60%-"
+                >
+                  <div class="h-full grid items-center w-7/12">
+                    <img
+                      src="images/careem+.png"
+                      class="h-[30px] lg:h-[60px]"
+                      alt=""
+                    />
+                    <h1
+                      class="text-sm md:text-lg lg:text-4xl text-white flex items-"
+                    >
+                      Get instant 10% back on Hala Taxi &amp; rides
+                    </h1>
+                  </div>
+
+                  <img
+                    src="images/cars.png"
+                    h
+                    class="absolute h-44 lg:h-auto right-8 -bottom-6 lg:-bottom-12"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Item 6 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <div
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              >
+                <div
+                  class="h-[145px] md:h-[160px] lg:h-[290px] max-h-40- py-3 pb-8 lg:py-10 px-4 lg:px-16 grid relative items-center rounded-lg lg:rounded-3xl w-full bg-gradient-to-r from-[#00493E] via-[#00493E] to-[#00945F] to-60%-"
+                >
+                  <div class="h-full grid items-center w-7/12">
+                    <img
+                      src="images/careem+.png"
+                      class="h-[30px] lg:h-[60px]"
+                      alt=""
+                    />
+                    <h1
+                      class="text-sm md:text-lg lg:text-4xl text-white flex items-"
+                    >
+                      Get
+                      <span class="text-green-600 mx-1 font-bold"
+                        >up to 50% off</span
+                      >
+                      your DineOut bills
+                    </h1>
+                  </div>
+
+                  <img
+                    src="images/food_services.png"
+                    h
+                    class="absolute h-44 lg:h-auto right-8 -bottom-6 lg:-bottom-12"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Item 7 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <div
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              >
+                <div
+                  class="h-[145px] md:h-[160px] lg:h-[290px] max-h-40- py-3 pb-8 lg:py-10 px-4 lg:px-16 grid relative items-center rounded-lg lg:rounded-3xl w-full bg-gradient-to-r from-[#00493E] via-[#00493E] to-[#00945F] to-60%-"
+                >
+                  <div class="h-full grid items-center w-7/12">
+                    <img
+                      src="images/careem+.png"
+                      class="h-[30px] lg:h-[60px]"
+                      alt=""
+                    />
+                    <h1
+                      class="text-sm md:text-lg lg:text-4xl text-white flex items-"
+                    >
+                      <p>Enjoy unlimited free delivery on Quik groceries</p>
+                    </h1>
+                  </div>
+
+                  <img
+                    src="images/fruit_basket.png"
+                    h
+                    class="absolute h-44 lg:h-auto right-8 -bottom-6 lg:-bottom-12"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Item 8 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <div
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              >
+                <div
+                  class="h-[145px] md:h-[160px] lg:h-[290px] max-h-40- py-3 pb-8 lg:py-10 px-4 lg:px-16 grid relative items-center rounded-lg lg:rounded-3xl w-full bg-gradient-to-r from-[#00493E] via-[#00493E] to-[#00945F] to-60%-"
+                >
+                  <div class="h-full grid items-center w-7/12">
+                    <img
+                      src="images/careem+.png"
+                      class="h-[30px] lg:h-[60px]"
+                      alt=""
+                    />
+                    <h1
+                      class="text-sm md:text-lg lg:text-4xl text-white flex items-"
+                    >
+                      Get 10% off on laundry
+                    </h1>
+                  </div>
+
+                  <img
+                    src="images/washing-machine.png"
+                    class="absolute h-44 lg:h-auto right-8 -bottom-6 lg:-bottom-12"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Item 9 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <div
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              >
+                <div
+                  class="h-[145px] md:h-[160px] lg:h-[290px] max-h-40- py-3 pb-8 lg:py-10 px-4 lg:px-16 grid relative items-center rounded-lg lg:rounded-3xl w-full bg-gradient-to-r from-[#00493E] via-[#00493E] to-[#00945F] to-60%-"
+                >
+                  <div class="h-full grid items-center w-7/12">
+                    <img
+                      src="images/careem+.png"
+                      class="h-[30px] lg:h-[60px]"
+                      alt=""
+                    />
+                    <h1
+                      class="text-sm md:text-lg lg:text-4xl text-white flex items-"
+                    >
+                      Get 20% off on home cleaning
+                    </h1>
+                  </div>
+
+                  <img
+                    src="images/mop.png"
+                    class="absolute h-44 lg:h-auto right-8 -bottom-6 lg:-bottom-12"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Item 10 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <div
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              >
+                <div
+                  class="h-[145px] md:h-[160px] lg:h-[290px] max-h-40- py-3 pb-8 lg:py-10 px-4 lg:px-16 grid relative items-center rounded-lg lg:rounded-3xl w-full bg-gradient-to-r from-[#00493E] via-[#00493E] to-[#00945F] to-60%-"
+                >
+                  <div class="h-full grid items-center w-7/12">
+                    <img
+                      src="images/careem+.png"
+                      class="h-[30px] lg:h-[60px]"
+                      alt=""
+                    />
+                    <h1
+                      class="text-sm md:text-lg lg:text-4xl text-white flex items-"
+                    >
+                      Get unlimited free 45-min bike rides
+                    </h1>
+                  </div>
+
+                  <img
+                    src="images/bike.png"
+                    class="absolute h-44 lg:h-auto right-8 -bottom-6 lg:-bottom-12"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-[500px] md:max-w-6xl md:px-12 mt-20 mx-auto">
+      <div
+        class="grid grid-cols-1 gap-4 justify-between items-center md:grid-cols-12 md:gap-8 px-4"
+      >
+        <div
+          class="md:col-span-8 lg:col-span-6 order-2 md:order-1 w mx-auto px-5"
+        >
+          <div class="h-full sm:px-0 flex items-center">
+            <div>
+              <h2
+                class="text-[28px] md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+              >
+                About Us
+              </h2>
+              <p class="text-base my-4 font-medium text-[#202020]">
+                Careem’s purpose is to simplify and improve the lives of people
+                and build an awesome organisation that inspires. Learn more
+                about our purpose, people and services.
+              </p>
+              <button
+                type="button"
+                class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#00EB79] hover:bg-[#00EB79] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="md:col-span-4 lg:col-span-6 w-full flex justify-end order-1 md:order-2"
+        >
+          <img src="images/About_us.png" class="w-full md:w-auto" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="h-[100vh] bg-gradient-to-bl from-[#03E786] via-[#03E786]- to-[#A6EDF2]"
+    >
+      <section
+        class="max-w-[500px] h-full md:max-w-6xl md:px-12 mt-20 mx-auto mb-96"
+      >
+        <div class="grid place-content-center h-full w-full">
+          <div
+            class="grid grid-cols-1 gap-4 justify-between items-center md:grid-cols-12 md:gap-8 px-4"
+          >
+            <div class="md:col-span-4 lg:col-span-6 w-full flex justify-end">
+              <img
+                src="images/Captain_homepage.png"
+                class="w-full md:w-auto"
+                alt=""
+              />
+            </div>
+            <div class="md:col-span-8 lg:col-span-6 w mx-auto px-5">
+              <div class="h-full sm:px-0 flex items-center">
+                <div>
+                  <h2
+                    class="text-[28px] md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+                  >
+                    Captains
+                  </h2>
+                  <p class="text-base my-4 font-medium text-[#202020]">
+                    Drive or deliver with Careem and earn with every ride.
+                    Choose your own hours, enjoy amazing Captain rewards and get
+                    professional training.
+                  </p>
+                  <button
+                    type="button"
+                    class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#ffffff] hover:bg-[#ffffff] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+                  >
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="max-w-[500px] md:max-w-6xl md:px-12 mt-20 mx-auto">
+      <div
+        class="grid grid-cols-1 gap-4 justify-between items-center md:grid-cols-12 md:gap-8 px-4"
+      >
+        <div
+          class="md:col-span-8 lg:col-span-6 order-2 md:order-1 w mx-auto px-5"
+        >
+          <div class="h-full sm:px-0 flex items-center">
+            <div>
+              <h2
+                class="text-[28px] md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+              >
+                Engineering at Careem
+              </h2>
+              <p class="text-base my-4 font-medium text-[#202020]">
+                Careem is creating cutting-edge technology every day across five
+                tech sites in Europe and the MENAP region, in a mission to build
+                a lasting tech institution that inspires.
+              </p>
+              <button
+                type="button"
+                class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#00EB79] hover:bg-[#00EB79] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="md:col-span-4 lg:col-span-6 w-full flex justify-end order-1 md:order-2"
+        >
+          <img src="images/Engineering.png" class="w-full md:w-auto" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-[500px] h-full md:max-w-6xl md:px-12 mt-20 mx-auto">
+      <div class="grid place-content-center h-full w-full">
+        <div
+          class="grid grid-cols-1 gap-4 justify-between items-center md:grid-cols-12 md:gap-8 px-4"
+        >
+          <div class="md:col-span-4 lg:col-span-6 w-full flex justify-end">
+            <img
+              src="images/Our_social_impact.png"
+              class="w-full md:w-auto"
+              alt=""
+            />
+          </div>
+          <div class="md:col-span-8 lg:col-span-6 w mx-auto px-5">
+            <div class="h-full sm:px-0 flex items-center">
+              <div>
+                <h2
+                  class="text-[28px] md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+                >
+                  Our social impact
+                </h2>
+                <p class="text-base my-4 font-medium text-[#202020]">
+                  We believe deeply in driving social and economic progress
+                  across the region. We use our app to connect customers to the
+                  communities that need the most support.
+                </p>
+                <button
+                  type="button"
+                  class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#00EB79] hover:bg-[#00EB79] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+                >
+                  Read more
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section
+      class="overflow-hidden px-4 mt-20 py-10 bg-gradient-to-bl overflow-x-auto scroll-container hide-scrollbar from-[#03E786] via-[#03E786]- to-[#A6EDF2]"
+    >
+      <section
+        class="min-w-[790px] h-full md:max-w-6xl md:px-12 mt-20 mx-auto mb-96"
+      >
+        <div class="px-4 flex justify-between mb-10 pe-">
+          <h2
+            class="text-4xl md:text-5xl text-[#2D2E2E] font-bold leading-snug"
+          >
+            Our blog
+          </h2>
+          <h2
+            class="text-lg flex items-center text-[#2D2E2E] font-bold leading-snug"
+          >
+            View all <i class="fa-solid fa-arrow-right ms-3 "></i>
+          </h2>
+        </div>
+        <div class="grid grid-cols-3 md:gap-4 ">
+          <div>
+            <a href="blog.html">
+              <div class="h-full">
+                <div class="max-w-52 md:max-w-72 lg:max-w-80">
+                  <img
+                    src="images/blog-1.png"
+                    class="w-full md:w-auto"
+                    alt=""
+                  />
+                </div>
+
+                <div class="px-4">
+                  <h2 class="text-[28px] text-[#2D2E2E] font-bold leading-snug">
+                    Standford MBA students visit careem
+                  </h2>
+                  <p class="text-base my-4 font-medium text-[#202020]">
+                    The aim was to help them learn about careem's growth and the
+                    adaptability to regional needs and requirements, along with
+                    the enterpreneurial environment in the region
+                  </p>
+                  <button
+                    type="button"
+                    class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#ffffff] hover:bg-[#ffffff] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+                  >
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="blog.html">
+              <div class="h-full">
+                <div class="max-w-52 md:max-w-72 lg:max-w-80">
+                  <img
+                    src="images/blog-2.png"
+                    class="w-full md:w-auto"
+                    alt=""
+                  />
+                </div>
+
+                <div class="px-4">
+                  <h2 class="text-[28px] text-[#2D2E2E] font-bold leading-snug">
+                    3 ways our software engineers use AI in their daily work
+                  </h2>
+                  <p class="text-base my-4 font-medium text-[#202020]">
+                    It’s no secret that the topic of AI has taken over the
+                    digital space over the past few months, especially after the
+                    launch of ChatGPT.
+                  </p>
+                  <button
+                    type="button"
+                    class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#ffffff] hover:bg-[#ffffff] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+                  >
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="blog.html">
+              <div class="h-full">
+                <div class="max-w-52 md:max-w-72 lg:max-w-80">
+                  <img
+                    src="images/blog-3.png"
+                    class="w-full md:w-auto"
+                    alt=""
+                  />
+                </div>
+
+                <div class="px-4">
+                  <h2 class="text-[28px] text-[#2D2E2E] font-bold leading-snug">
+                    Careem: Chapter 3
+                  </h2>
+                  <p class="text-base my-4 font-medium text-[#202020]">
+                    Nearly 11 years ago, we started Careem with a desire to
+                    build something big and meaningful. On the one hand, the
+                    success of Careem and its impact on our ecosystem has
+                    exceeded our wildest imaginations.
+                  </p>
+                  <button
+                    type="button"
+                    class="text-gray-900 translate-y-1 hover:translate-y-0 bg-[#ffffff] hover:bg-[#ffffff] focus:outline-none duration-200 font-medium rounded-lg text-xs px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+                  >
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>

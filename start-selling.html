@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .scroll-container::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <title>careem</title>
+  <body style="font-family: inter" class="overflow-x-hidden-">
+    <nav
+      class="bg-white border-gray-300 fixed drop-shadow z-40 border-b top-0 mx-auto w-full py-3.5 px-6 dark:bg-gray-900"
+    >
+      <div class="flex justify-between mx-auto">
+        <div class="flex items-center gap-24">
+          <a href="index.html">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <ul class="hidden lg:flex items-center gap-6">
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href="service"> Service</a>
+            </li>
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href=" partners"> Partners</a>
+            </li>
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href=" careem_plus"> Careem Plus</a>
+            </li>
+            <li
+              class="hover:text-[#00EB79] text-[#474747] hover:border-b-2 border-[#00EB79] font-semibold text-[16.5px]"
+            >
+              <a href=" about_us"> About Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-center">
+          <button
+            type="button"
+            class="text-gray-900 md:hidden translate-y-1 hover:translate-y-0 bg-[#00EB79] hover:bg-[#00EB79] focus:outline-none duration-200 font-medium rounded-lg text-base px-4 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+          >
+            Download the app
+          </button>
+          <button
+            type="button"
+            class="text-gray-900 hidden md:block translate-y-1 hover:translate-y-0 bg-[#00EB79] hover:bg-[#00EB79] focus:outline-none duration-200 font-medium rounded-lg text-base px-4 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+          >
+            Sign In
+          </button>
+          <button
+            type="button"
+            id="dropdownDefaultButton"
+            data-dropdown-toggle="dropdown"
+            class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer dark:hover:text-white"
+          >
+            <svg
+              class="w-5 h-5 rounded-full me-3"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 3900 3900"
+            >
+              <path fill="#b22234" d="M0 0h7410v3900H0z" />
+              <path
+                d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0"
+                stroke="#fff"
+                stroke-width="300"
+              />
+              <path fill="#3c3b6e" d="M0 0h2964v2100H0z" />
+              <g fill="#fff">
+                <g id="d">
+                  <g id="c">
+                    <g id="e">
+                      <g id="b">
+                        <path
+                          id="a"
+                          d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"
+                        />
+                        <use xlink:href="#a" y="420" />
+                        <use xlink:href="#a" y="840" />
+                        <use xlink:href="#a" y="1260" />
+                      </g>
+                      <use xlink:href="#a" y="1680" />
+                    </g>
+                    <use xlink:href="#b" x="247" y="210" />
+                  </g>
+                  <use xlink:href="#c" x="494" />
+                </g>
+                <use xlink:href="#d" x="988" />
+                <use xlink:href="#c" x="1976" />
+                <use xlink:href="#e" x="2470" />
+              </g>
+            </svg>
+            English
+          </button>
+
+          <!-- Dropdown menu -->
+          <div
+            id="dropdown"
+            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-b-lg shadow border dark:bg-gray-700"
+          >
+            <ul
+              class="justify-center text-sm text-gray-700 dark:text-gray-200"
+              aria-labelledby="dropdownDefaultButton"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-[#00EB79] dark:hover:bg-slate-700 dark:hover:text-white"
+                  >Englis</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-[#00EB79] dark:hover:bg-slate-700 dark:hover:text-white"
+                  >Settings</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="mt-14"></div>
+
+    <div
+      style="
+        background-image: url('images/manage_your_store/home_page_background.png');
+        background-position: top;
+      "
+      class="object-top bg-cover w-full z-40 overflow-hidden pt-20"
+    >
+      <div
+        class="grid grid-cols-1 gap-4 justify-between items- lg:grid-cols-12 md:gap-8 px-4 mb-14"
+      >
+        <div class="lg:col-span-6 w mx-auto px-5">
+          <div class="h-full sm:px-0 flex items-center-">
+            <div>
+              <h2
+                class="text-[28px] leading-tight lg:leading-snug md:text-[42px] lg:text-5xl text-[#2D2E2E] font-bold mb-6"
+              >
+                Build your business online with Glovo
+              </h2>
+              <div
+                class="h-[140vh] bg-white shadow-lg w-full rounded-3xl"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="lg:col-span-6 w-full flex justify-start">
+          <div>
+            <img
+              src="images/start_selling/start_selling_one.png"
+              class="max-w-[510px] max-h-[510px] rounded-[50px] shadow-2xl"
+              alt=""
+            />
+
+            <p class="text-lg md:text-3xl my-4 font-semibold text-gray-800">
+              “Glovo makes the difference! Since we joined we’ve recorded more
+              sales and increased visibility for Opvine. It’s been an
+              interesting journey so far.”
+            </p>
+            <p class="text-lg md:text-xl mt-4 text-gray-800">Oluyemi Tosin</p>
+            <p class="text-lg md:text-xl mb-4 text-gray-800">Opvine, Lagos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="px-4 mt-10">
+      <h2
+        class="text-[28px] text-center leading-tight lg:leading-snug md:text-[42px] lg:text-5xl text-[#2D2E2E] font-bold"
+      >
+        Find the best solution for your business
+      </h2>
+      <hr class="w-72 h-2 mt-4 mb-8 bg-[#00A781] text-center mx-auto rounded" />
+    </div>
+
+    <div class="mb-4 px-8">
+      <ul
+        class="flex flex-wrap justify-center text-sm sm:text-base md:text-xl font-bold py-1 text-center bg-[#EFEFEF] rounded-3xl items-center"
+        id="default-styled-tab"
+        data-tabs-toggle="#default-styled-tab-content"
+        data-tabs-active-classes="text-white bg-[#00A082] hover:text-white"
+        data-tabs-inactive-classes="text-gray-500 hover:text-gray-600"
+        role="tablist"
+      >
+        <li class="me-2" role="presentation">
+          <button
+            class="inline-block py-2.5 px-8 sm:px-16 md:px-20 rounded-3xl"
+            id="sell-styled-tab"
+            data-tabs-target="#styled-sell"
+            type="button"
+            role="tab"
+            aria-controls="sell"
+            aria-selected="false"
+          >
+            Sell
+          </button>
+        </li>
+        <li class="me-2" role="presentation">
+          <button
+            class="inline-block py-2.5 px-8 sm:px-16 md:px-20 rounded-3xl"
+            id="manage-styled-tab"
+            data-tabs-target="#styled-manage"
+            type="button"
+            role="tab"
+            aria-controls="manage"
+            aria-selected="false"
+          >
+            manage
+          </button>
+        </li>
+        <li class="me-2" role="presentation">
+          <button
+            class="inline-block py-2.5 px-8 sm:px-16 md:px-20 rounded-3xl"
+            id="grow-styled-tab"
+            data-tabs-target="#styled-grow"
+            type="button"
+            role="tab"
+            aria-controls="grow"
+            aria-selected="false"
+          >
+            Grow
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div id="default-styled-tab-content">
+      <div
+        class="hidden p-4 dark:bg-gray-800"
+        id="styled-sell"
+        role="tabpanel"
+        aria-labelledby="sell-tab"
+      >
+        <div>
+          <div
+            class="grid grid-cols-1 gap-4 justify-between md:grid-cols-12 md:gap-8 px-4"
+          >
+            <div
+              class="md:col-span-4 lg:col-span-6 w-full flex justify-end order-1 md:order-2 p-10"
+            >
+              <img
+                src="images/start_selling/home_page_sell.png"
+                class="w-[80%] md:w-auto"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="md:col-span-8 lg:col-span-6 order-2 md:order-1 w mx-auto px-5 flex items-start"
+            >
+              <div class="h-full sm:px-0 flex py-4">
+                <div>
+                  <h2
+                    class="text-[23px] leading-tight lg:leading-snug md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+                  >
+                    Sell to new customers and neighbourhoods
+                  </h2>
+                  <p class="text-xl my-4 font-medium text-[#202020]">
+                    Increase your orders by reaching more customers thanks to an
+                    online marketplace and network of couriers available through
+                    our technology.
+                  </p>
+                  <p class="text-xl my-4 font-bold text-[#202020]">
+                    Learn more about:
+                  </p>
+                  <ul>
+                    <li>
+                      <p class="text-xl my-4 font-medium text-[#202020]">
+                        <span class="text-3xl">.</span>
+                        <a href="#" class="hover:text-[#00A082] underline">
+                          Delivery with Glovo
+                        </a>
+                      </p>
+                    </li>
+                    <li>
+                      <p class="text-xl my-4 font-medium text-[#202020]">
+                        <span class="text-3xl">.</span>
+                        <a href="#" class="hover:text-[#00A082] underline">
+                          In-store pick-up
+                        </a>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hidden p-4 dark:bg-gray-800"
+        id="styled-manage"
+        role="tabpanel"
+        aria-labelledby="manage-tab"
+      >
+        <div>
+          <div
+            class="grid grid-cols-1 gap-4 justify-between md:grid-cols-12 md:gap-8 px-4"
+          >
+            <div
+              class="md:col-span-4 lg:col-span-6 w-full flex justify-end order-1 md:order-2 p-10"
+            >
+              <img
+                src="images/manage_your_store/manage_your_store_two.png"
+                class="w-[80%] md:w-auto"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="md:col-span-8 lg:col-span-6 order-2 md:order-1 w mx-auto px-5 flex items-start"
+            >
+              <div class="h-full sm:px-0 flex py-4">
+                <div>
+                  <h2
+                    class="text-[23px] leading-tight lg:leading-snug md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+                  >
+                    Manage your restaurant or store
+                  </h2>
+                  <p class="text-xl my-4 font-medium text-[#202020]">
+                    Take care of the day-to-day of your business with our 24h
+                    live support, order management software, and safe payment
+                    gateway.
+                  </p>
+                  <p class="text-xl my-4 font-bold text-[#202020]">
+                    Learn more about:
+                  </p>
+                  <p class="text-xl my-4 font-medium text-[#202020]">
+                    <span class="text-3xl">.</span>
+                    <a href="#" class="hover:text-[#00A082] underline">
+                      Manage your Store
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hidden p-4 dark:bg-gray-800"
+        id="styled-grow"
+        role="tabpanel"
+        aria-labelledby="grow-tab"
+      >
+        
+      <div>
+        <div
+          class="grid grid-cols-1 gap-4 justify-between md:grid-cols-12 md:gap-8 px-4"
+        >
+          <div
+            class="md:col-span-4 lg:col-span-6 w-full flex justify-end order-1 md:order-2 p-10"
+          >
+            <img
+              src="images/start_selling/home_page_grow.png"
+              class="w-[80%] md:w-auto"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="md:col-span-8 lg:col-span-6 order-2 md:order-1 w mx-auto px-5 flex items-start"
+          >
+            <div class="h-full sm:px-0 flex py-4">
+              <div>
+                <h2
+                  class="text-[23px] leading-tight lg:leading-snug md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+                >
+                Grow your online business
+              </h2>
+                <p class="text-xl my-4 font-medium text-[#202020]">
+                  Expand and improve your business by keeping an eye on your operational costs and sales data through our reports.
+                </p>
+                <p class="text-xl my-4 font-bold text-[#202020]">
+                  Learn more about:
+                </p>
+                <ul>
+                  <li>
+                    <p class="text-xl my-4 font-medium text-[#202020]">
+                      <span class="text-3xl">.</span>
+                      <a href="#" class="hover:text-[#00A082] underline">
+                        Promotions
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="text-xl my-4 font-medium text-[#202020]">
+                      <span class="text-3xl">.</span>
+                      <a href="#" class="hover:text-[#00A082] underline">
+                        Menu Optimisation
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="text-xl my-4 font-medium text-[#202020]">
+                      <span class="text-3xl">.</span>
+                      <a href="#" class="hover:text-[#00A082] underline">
+                        Ads
+                      </a>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+
+
+    <div style="background-image: url('images/manage_your_store/bg_manage_your_store.png'); background-position: top; " class="object-top bg-cover  w-full z-40 overflow-hidden lg:-mb-36 -mb-28">
+      <div class="w-full h-full flex items-end justify-center py-56 px-4 md:px-8">
+          <div
+          class="grid grid-cols-1 gap-20 justify-between items-center md:grid-cols-12 md:gap-8 px-4"
+        >
+          <div
+            class="xl:col-span-5 md:col-span-6 px-8 sm:px-20 md:px-0 "
+          >
+  
+           <div class="md:w-full flex justify-items-center items-center order-1 md:order-1 bg-yellow-600 rounded-ss-[30%] rounded-ee-[30%] rounded-[50%] rotate-12 h-[350px] md:h-[500px]">
+              <img
+              src="images/start_selling/home_page_akara.png"
+              class="w-[80%]- md:w-auto mx-auto rounded-ss-[30%] object-cover rounded-ee-[30%] rounded-[50%] -rotate-12 h-[300px] md:h-[450px]"
+              alt=""
+            />
+           </div>
+  
+          </div>
+          <div
+            class="xl:col-span-7 md:col-span-6 order-2 md:order-2 w mx-auto px-5 flex items-center"
+          >
+            <div class="h-full sm:px-0 flex items-center">
+              <div>
+                
+                <p class="text-lg md:text-3xl my-4 font-medium text-gray-100">
+                  “Since we became a partner with Glovo, we’ve recorded more sales, we’ve gotten more audiences, we’ve gained publicity, and it’s been an interesting journey all along.”
+
+                </p>
+                <p class="text-lg md:text-3xl my-4 font-medium text-gray-100">
+                  PATIENCE DC - AKARA UNIVERSITY
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+
+  <div class="second z-50 ">
+    <div style="background-image: url('images/manage_your_store/digital_solutions_yellow_curve.png'); background-position: top; " class="object-top bg-cover  w-full z-40 rounded-b-[100px]">
+    <div class="w-full h-full flex lg:items-end items-center justify-center py-44 lg:pt-64 lg:pb-32 ">
+        
+       <div class="">
+        <div class="text-center text-3xl mb-5 md:text-5xl font-bold text-gray-800">
+           <h1>
+            Not a Glovo Partner yet?
+           </h1>
+
+        </div>
+        <div class="flex justify-center mb-10-">
+
+            <button
+        type="button"
+        class="w-64 h-12  translate-y-1 hover:translate-y-0 bg-[#00A781] text-white hover:bg-[#00A781] focus:outline-none duration-200 font-medium rounded-3xl text-lg px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700"
+      >
+        Get Started
+      </button>
+        </div>
+       </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="px-4 mt-20">
+  <h2
+    class="text-[28px] text-center leading-tight lg:leading-snug md:text-[42px] lg:text-5xl text-[#2D2E2E] font-bold"
+  >
+  Helping businesses in your neighbourhood go digital
+</h2>
+  <hr class="w-72 h-2 mt-4 mb-8 bg-[#00A781] text-center mx-auto rounded" />
+</div>
+
+
+
+<div>
+  <div
+    class="grid grid-cols-1 gap-4 justify-between md:grid-cols-12 md:gap-8 px-4"
+  >
+    <div
+      class="md:col-span-4 lg:col-span-6 w-full flex justify-end order-1 md:order-2 p-10"
+    >
+      <img
+        src="images/start_selling/home_page_montsanta.png"
+        class="w-[80%] md:w-auto"
+        alt=""
+      />
+    </div>
+
+    <div
+      class="md:col-span-8 lg:col-span-6 order-2 md:order-1 w mx-auto px-5 flex items-start"
+    >
+      <div class="h-full sm:px-0 flex py-4">
+        <div>
+          <h2
+            class="text-[23px] leading-tight lg:leading-snug md:text-[32px] lg:text-4xl text-[#2D2E2E] font-bold"
+          >
+          Grow your online business
+        </h2>
+          <p class="text-xl my-4 font-medium text-[#202020]">
+            Glovo is another neighbour in town and that's why we want to help local shops and restaurants like yours grow online.
+
+          </p>
+          <p class="text-xl my-4 font-medium text-[#202020]">
+Our mission is to empower thousands of local businesses to go digital. Thanks to our integrated solutions, we want to become the best digital ally for your business because local entrepreneurs and economies matter to us.
+          </p>
+
+
+          <div
+          id="drop_down"
+          data-accordion="collapse"
+          data-active-classes="bg-white text-xl dark:bg-gray-900 text-gray-900 dark:text-white"
+          data-inactive-classes="text-gray-500 dark:text-gray-400"
+        >
+          <h2 id="drop_down">
+            <button
+              type="button"
+              class="flex items-center w-full py-5 rtl:text-right text-gray-500  dark:text-gray-400 gap-3"
+              data-accordion-target="#drop_down_tag"
+              aria-expanded="false"
+              aria-controls="drop_down_tag"
+            >
+              <span class="text-xl"
+                >Read More
+              </span>
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"
+                />
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="drop_down_tag"
+            class="hidden"
+            aria-labelledby="drop_down"
+          >
+            <div class="py-5px-4">
+              <p class="mb-2 text-gray-800 text-xl dark:text-gray-400">
+                Glovo Partners started as our online signup feature built to enable restaurants to easily join the food delivery market. Now, Glovo Partners becomes Glovo Local: a full-suite solution tailored to local businesses including grocery stores, flower shops, pet stores and other local businesses. Through Glovo Local, small and medium enterprises can sell their products with more convenience, manage their businesses and grow online by leveraging Glovo’s digital platform.
+              </p>
+            </div>
+          </div>
+          </div>
+  
+
+  <div class="flex  mt-3">
+
+    <button type="button" class="w-64 h-12  translate-y-1 hover:translate-y-0 bg-[#00A781] text-white hover:bg-[#00A781] focus:outline-none duration-200 font-medium rounded-3xl text-lg px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:border-gray-700">
+Get Started
+</button>
+</div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="px-4 mt-20">
+  <h2
+    class="text-[28px] text-center leading-tight lg:leading-snug md:text-[42px] lg:text-5xl text-[#2D2E2E] font-bold"
+  >
+  Frequently asked questions
+</h2>
+  <hr class="w-72 h-2 mt-4 mb-8 bg-[#00A781] text-center mx-auto rounded" />
+</div>
+
+
+
+
+<div class="px-10 mb-32">
+
+
+  <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white text-xl dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+    <h2 id="accordion-flush-heading-1">
+      <button type="button" class="flex items-center justify-between w-full py-5 rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3" data-accordion-target="#accordion-flush-body-1" aria-expanded="false" aria-controls="accordion-flush-body-1">
+        <span class="text-2xl">What is Glovo?</span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
+      <div class="py-5 border-b border-gray-200 dark:border-gray-700 px-4">
+        <p class="mb-2 text-gray-800 text-xl dark:text-gray-400">Glovo is an online delivery platform (web and app) that connect customers with businesses that want to expand their offer beyond the doors of their establishment and sell online. Present in 30 countries and with more than 3.4 million active users, Glovo leads the food delivery market in both orders and the number of restaurants.
+      </div>
+    </div>
+    <h2 id="accordion-flush-heading-2">
+      <button type="button" class="flex items-center justify-between w-full py-5 rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+        <span class="text-2xl">Is there a Figma file available?</span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+      <div class="py-5 border-b border-gray-200 dark:border-gray-700 px-4">
+        <p class="mb-2 text-gray-800 text-xl dark:text-gray-400"> Signing your local business up to our app is easy. You just have to fill in the form you’ll find on our Partner website, available at the top of this page.
+      </div>
+    </div>
+    <h2 id="accordion-flush-heading-3">
+      <button type="button" class="flex items-center justify-between w-full py-5 rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+        <span class="text-2xl">What are the differences between Flowbite and Tailwind UI?</span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+      <div class="py-5 border-b border-gray-200 dark:border-gray-700 px-4">
+        <p class="mb-2 text-gray-800 text-xl dark:text-gray-400">Your restaurant can usually go online with Glovo within 5 working days as long as you send us all the details and documents we ask for (you can do all this online, quickly and safely) and you’ve signed your contract.
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <h2 id="accordion-flush-heading-4">
+      <button type="button" class="flex items-center justify-between w-full py-5 rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
+        <span class="text-2xl">How will I receive the orders?</span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+      <div class="py-5 border-b border-gray-200 dark:border-gray-700 px-4">
+        <p class="mb-2 text-gray-800 text-xl dark:text-gray-400">We will give you access to our platform and once you confirm the order, you will have about 15 minutes until the courier arrives to pick it up.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <div
+      class="grid xl:grid-cols-6 col-span-1 xl:flex gap-5 text-center xl:justify-between space-y-10 px-8"
+    >
+      <div
+        class="xl:flex text-center mx-auto xl:me-16 xl:mx-1 order-1 xl:order-1"
+      >
+        <div class="space-x-4">
+          <a href="index.html">
+            <img
+              src="images/express/careem_logo_new.png"
+              class="w-28 translate-y-1 hover:translate-y-0 duration-200 mx-auto xl:mx-1"
+              alt=""
+            />
+          </a>
+          <a href="index.html">
+            <img
+              src="images/express/app-store.webp"
+              class="w-32 translate-y-1 hover:translate-y-0 duration-200 mx-auto xl:mx-1"
+              alt=""
+            />
+          </a>
+          <a href="index.html">
+            <img
+              src="images/express/google-play.webp"
+              class="w-32 translate-y-1 hover:translate-y-0 duration-200 mx-auto xl:mx-1"
+              alt=""
+            />
+          </a>
+          <a href="index.html">
+            <img
+              src="images/express/apk-download.webp"
+              class="w-32 translate-y-1 hover:translate-y-0 duration-200 mx-auto xl:mx-1"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="space-y-6 xl:space-y-3 order-3 xl:order-2 -pt-8">
+        <h1 class="text-lg text-center font-semibold text-[#00493E]">
+          Services
+        </h1>
+        <ul class="space-y-2">
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-6 text-[#474747] font-semibold text-[16.5px] text-center"
+          >
+            <a href="">Go </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-6 text-[#474747] font-semibold text-[16.5px] text-center"
+          >
+            <a href="">Eat </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-6 text-[#474747] font-semibold text-[16.5px] text-center"
+          >
+            <a href="">Get </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-6 text-[#474747] font-semibold text-[16.5px] text-center"
+          >
+            <a href="">Pay </a>
+          </li>
+        </ul>
+        <div class="text-center">
+          <a
+            href=""
+            class="hover:text-[#00EB79] duration-200 text-center text-base hover:underline-offset-2 hover:underline font-semibold text-[#2D2E2E]"
+          >
+            Careem Plus
+          </a>
+        </div>
+      </div>
+      <div class="space-y-6 xl:space-y-3 xl:-ms-8 order-4 xl:order-3">
+        <h1 class="text-lg text-center font-semibold text-[#00493E]">
+          Partners
+        </h1>
+        <ul class="space-y-2">
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-[168px] text-[#474747] font-semibold text-[16.5px] text-center"
+          >
+            <a href="" class="">Corporate packages </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-[164px] text-[#474747] font-semibold text-[16.5px] text-center"
+          >
+            <a href="">Restaurant delivery </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-28 text-[#474747] font-semibold text-[16.5px] text-center"
+          >
+            <a href="">B2B delivery </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-48 text-[#474747] font-semibold text-[16.5px] text-center"
+          >
+            <a href="">Pay merchant solutions </a>
+          </li>
+        </ul>
+      </div>
+      <div class="space-y-6 xl:space-y-3 xl:-mx-8 order-5 xl:order-4">
+        <h1 class="text-lg text-center font-semibold text-[#00493E]">
+          Join our team
+        </h1>
+        <ul class="space-y-2">
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-20 text-[#474747] font-semibold text-[16px] text-center"
+          >
+            <a href="">About us </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-[184px] text-[#474747] font-semibold text-[16px] text-center"
+          >
+            <a href="">Engineering at Careem </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-16 text-[#474747] font-semibold text-[16.5px] text-center"
+          >
+            <a href="">Careers </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-36 text-[#474747] font-semibold text-[16px] text-center"
+          >
+            <a href="">Explore open roles </a>
+          </li>
+        </ul>
+        <div class="text-center">
+          <a
+            href=""
+            class="hover:text-[#00EB79] duration-200 text-center text-base hover:underline-offset-2 hover:underline font-semibold text-[#2D2E2E]"
+          >
+            Why Careem
+          </a>
+        </div>
+      </div>
+      <div class="space-y-6 xl:space-y-3 order-6 xl:order-5">
+        <h1 class="text-lg text-center font-semibold text-[#00493E]">
+          About us
+        </h1>
+        <ul class="space-y-2">
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-36 text-[#474747] font-semibold text-[16px] text-center"
+          >
+            <a href="">Our social impact </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-40 text-[#474747] font-semibold text-[16px] text-center"
+          >
+            <a href="">Information security </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] hover:border-b-2 border-[#00EB79] mx-auto w-9 text-[#474747] font-semibold text-[16.5px] text-center"
+          >
+            <a href="">Blog </a>
+          </li>
+        </ul>
+      </div>
+
+      <div
+        class="space-y-6 xl:space-y-3 xl:ms-10 text-center order-2 xl:order-6"
+      >
+        <ul class="space-y-2 text-center xl:text-start">
+          <li>
+            <button
+              type="button"
+              id="dropdownDefaultButtontwo"
+              data-dropdown-toggle="dropdowntwo"
+              class="inline-flex font-medium items-center py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer dark:hover:text-white"
+            >
+              <i class="fa-solid fa-location-dot text-lg text-[#00493E]"></i>
+              <span class="ms-2 me-4"> U.A.E. </span>
+              <i class="fa-solid fa-caret-down text-gray-600"></i>
+            </button>
+            <div
+              id="dropdowntwo"
+              class="z-10 bg-white divide-y divide-gray-100 rounded-b-lg shadow border dark:bg-gray-700 hidden"
+              style="
+                position: absolute;
+                inset: 0px auto auto 0px;
+                margin: 0px;
+                transform: translate(1028px, 6064px);
+              "
+              data-popper-placement="bottom"
+            >
+              <ul
+                class="justify-center text-sm text-gray-700 dark:text-gray-200"
+                aria-labelledby="dropdownDefaultButtontwo"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block px-7 py-2 bg-[#00EB79] dark:bg-slate-700 dark:text-white"
+                  >
+                    U.A.E.</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <button
+              type="button"
+              id="dropdownDefaultButtonone"
+              data-dropdown-toggle="dropdownone"
+              class="inline-flex font-medium items-center py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer dark:hover:text-white"
+            >
+              <i class="fa-solid fa-globe text-[#00493E]"></i>
+              <span class="ms-2 me-4"> English </span>
+              <i class="fa-solid fa-caret-down text-gray-600"></i>
+            </button>
+            <div
+              id="dropdownone"
+              class="z-10 bg-white divide-y divide-gray-100 rounded-b-lg shadow border dark:bg-gray-700 hidden"
+              style="
+                position: absolute;
+                inset: 0px auto auto 0px;
+                margin: 0px;
+                transform: translate(1028px, 6064px);
+              "
+              data-popper-placement="bottom"
+            >
+              <ul
+                class="justify-center text-sm text-gray-700 dark:text-gray-200"
+                aria-labelledby="dropdownDefaultButtonone"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:bg-[#00EB79] dark:hover:bg-slate-700 dark:hover:text-white"
+                    >Englishrg</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:bg-[#00EB79] dark:hover:bg-slate-700 dark:hover:text-white"
+                    >Settings</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li
+            class="hover:text-[#00EB79] mx-auto text-[#474747] font-semibold text-[16px]"
+          >
+            <a href="">
+              <i class="fa-regular fa-circle-question text-[#00493E]"></i>
+              Help Centre
+            </a>
+          </li>
+          <li
+            class="hover:text-[#00EB79] mx-auto text-[#474747] font-semibold text-[16px]"
+          >
+            <a href="">
+              <i class="fa-regular fa-circle-question text-[#00493E]"></i>
+              Book your ride
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="px-9 xl:mt-16">
+      <div class="xl:border-t">
+        <div
+          class="grid xl:grid-cols-3 grid-cols-1 xl:flex items-center text-center xl:justify-between px-8"
+        >
+          <div class="items-center flex order-3 xl:order-1 mx-auto xl:mx-1">
+            <p class="text-xs flex items-cente h-full">
+              All rights reserved. Careem © 2024
+            </p>
+          </div>
+          <div
+            class="flex items-center gap-4 order-2 xl:order-2 mx-auto xl:mx-1 mt-8 mb-12"
+          >
+            <a href="#"
+              ><p
+                class="text-xs flex items-center h-full hover:border-b-2 border-[#00EB79] hover:text-[#00EB79]"
+              >
+                Terms of Service
+              </p></a
+            >
+            <a href="#"
+              ><p
+                class="text-xs flex items-center h-full hover:border-b-2 border-[#00EB79] hover:text-[#00EB79]"
+              >
+                Privacy Notices
+              </p></a
+            >
+          </div>
+          <div
+            class="flex items-center space-x-8 order-1 xl:order-3 mx-auto xl:mx-1"
+          >
+            <p class="rounded-full bg-black text-white w-6 h-6">
+              <a href="#"> <i class="fa-brands fa-facebook-f"></i> </a>
+            </p>
+            <p class="rounded-full bg-black text-white w-6 h-6">
+              <a href="#"> <i class="fa-brands fa-x-twitter"></i> </a>
+            </p>
+            <p class="rounded-full bg-black text-white w-6 h-6">
+              <a href="#"> <i class="fa-brands fa-linkedin-in"></i> </a>
+            </p>
+            <p class="rounded-full bg-black text-white w-6 h-6">
+              <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>
